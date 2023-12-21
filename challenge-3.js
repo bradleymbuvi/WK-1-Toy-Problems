@@ -48,8 +48,12 @@ function calculateNetSalary(basicSalary, benefits) {
   }
   
 
-  
-  const salaryDetails = calculateNetSalary(basicSalary, benefits);
+    const basicSalary = 58000; 
+    const benefits =70000; 
+    const result = calculateNetSalary(basicSalary, benefits);
+
+
+  const salaryDetails = calculateNetSalary(basicSalary, benefits); 
   console.log("Gross Salary:", salaryDetails.grossSalary);
   console.log("Tax (PAYEE):", salaryDetails.tax);
   console.log("NHIF Deductions:", salaryDetails.NHIF);
